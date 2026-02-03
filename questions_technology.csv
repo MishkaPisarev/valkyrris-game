@@ -1,0 +1,58 @@
+category,question_text,image_url,answers,correct_index,difficulty
+Technology,"Кто основал компанию Apple?",,"[""Билл Гейтс"", ""Стив Джобс"", ""Марк Цукерберг"", ""Ларри Пейдж""]",1,easy
+Technology,"В каком году был создан первый iPhone?",,"[""2005"", ""2007"", ""2009"", ""2011""]",1,medium
+Technology,"Что означает аббревиатура HTML?",,"[""HyperText Markup Language"", ""High Tech Modern Language"", ""Home Tool Markup Language"", ""Hyperlink Text Markup Language""]",0,medium
+Technology,"Кто создал операционную систему Linux?",,"[""Билл Гейтс"", ""Линус Торвальдс"", ""Стив Джобс"", ""Ричард Столлман""]",1,medium
+Technology,"В каком году был создан первый компьютер?",,"[""1940"", ""1945"", ""1950"", ""1955""]",1,hard
+Technology,"Что означает аббревиатура CPU?",,"[""Central Processing Unit"", ""Computer Processing Unit"", ""Central Program Unit"", ""Computer Program Unit""]",0,medium
+Technology,"Кто основал компанию Microsoft?",,"[""Стив Джобс"", ""Билл Гейтс"", ""Пол Аллен"", ""Билл Гейтс и Пол Аллен""]",3,medium
+Technology,"В каком году был создан первый веб-сайт?",,"[""1989"", ""1991"", ""1993"", ""1995""]",1,hard
+Technology,"Что означает аббревиатура RAM?",,"[""Random Access Memory"", ""Read Access Memory"", ""Random Available Memory"", ""Read Available Memory""]",0,medium
+Technology,"Кто создал язык программирования Python?",,"[""Гвидо ван Россум"", ""Джеймс Гослинг"", ""Брендан Эйх"", ""Деннис Ритчи""]",0,hard
+Technology,"В каком году был создан первый ноутбук?",,"[""1975"", ""1981"", ""1985"", ""1990""]",1,hard
+Technology,"Что означает аббревиатура URL?",,"[""Uniform Resource Locator"", ""Universal Resource Locator"", ""Unique Resource Locator"", ""Unified Resource Locator""]",0,medium
+Technology,"Кто основал компанию Google?",,"[""Билл Гейтс"", ""Ларри Пейдж и Сергей Брин"", ""Марк Цукерберг"", ""Джефф Безос""]",1,medium
+Technology,"В каком году был создан первый смартфон?",,"[""1990"", ""1992"", ""1994"", ""1996""]",2,hard
+Technology,"Что означает аббревиатура HTTP?",,"[""HyperText Transfer Protocol"", ""High Tech Transfer Protocol"", ""Hyperlink Text Transfer Protocol"", ""Home Tool Transfer Protocol""]",0,medium
+Technology,"Кто создал язык программирования Java?",,"[""Гвидо ван Россум"", ""Джеймс Гослинг"", ""Брендан Эйх"", ""Деннис Ритчи""]",1,hard
+Technology,"В каком году был создан первый персональный компьютер IBM?",,"[""1975"", ""1981"", ""1985"", ""1990""]",1,hard
+Technology,"Что означает аббревиатура SSD?",,"[""Solid State Drive"", ""Super Speed Drive"", ""System Storage Drive"", ""Secure Storage Drive""]",0,medium
+Technology,"Кто основал компанию Amazon?",,"[""Джефф Безос"", ""Илон Маск"", ""Марк Цукерберг"", ""Билл Гейтс""]",0,medium
+Technology,"В каком году был создан первый компьютерный вирус?",,"[""1970"", ""1982"", ""1985"", ""1990""]",1,hard
+Technology,"Что означает аббревиатура AI?",,"[""Artificial Intelligence"", ""Advanced Intelligence"", ""Automated Intelligence"", ""Algorithmic Intelligence""]",0,medium
+Technology,"Кто создал язык программирования JavaScript?",,"[""Гвидо ван Россум"", ""Джеймс Гослинг"", ""Брендан Эйх"", ""Деннис Ритчи""]",2,hard
+Technology,"В каком году был создан первый интернет?",,"[""1965"", ""1969"", ""1973"", ""1975""]",1,hard
+Technology,"Что означает аббревиатура GPU?",,"[""Graphics Processing Unit"", ""General Processing Unit"", ""Graphics Program Unit"", ""General Program Unit""]",0,medium
+Technology,"Кто основал компанию Facebook?",,"[""Марк Цукерберг"", ""Джефф Безос"", ""Илон Маск"", ""Ларри Пейдж""]",0,easy
+Technology,"В каком году был создан первый планшет?",,"[""1985"", ""1990"", ""2000"", ""2010""]",2,hard
+Technology,"Что означает аббревиатура VPN?",,"[""Virtual Private Network"", ""Very Private Network"", ""Virtual Public Network"", ""Very Public Network""]",0,medium
+Technology,"Кто создал язык программирования C?",,"[""Гвидо ван Россум"", ""Джеймс Гослинг"", ""Деннис Ритчи"", ""Брендан Эйх""]",2,hard
+Technology,"В каком году был создан первый смартфон с сенсорным экраном?",,"[""1992"", ""1994"", ""2000"", ""2007""]",1,hard
+Technology,"Что означает аббревиатура API?",,"[""Application Programming Interface"", ""Advanced Programming Interface"", ""Application Program Interface"", ""Advanced Program Interface""]",0,medium
+Technology,"Кто основал компанию Tesla?",,"[""Илон Маск"", ""Джефф Безос"", ""Билл Гейтс"", ""Марк Цукерберг""]",0,medium
+Technology,"В каком году был создан первый компьютерный язык программирования?",,"[""1945"", ""1950"", ""1955"", ""1960""]",1,hard
+Technology,"Что означает аббревиатура DNS?",,"[""Domain Name System"", ""Data Name System"", ""Domain Network System"", ""Data Network System""]",0,medium
+Technology,"Кто создал язык программирования PHP?",,"[""Расмус Лердорф"", ""Гвидо ван Россум"", ""Джеймс Гослинг"", ""Брендан Эйх""]",0,hard
+Technology,"В каком году был создан первый веб-браузер?",,"[""1990"", ""1993"", ""1995"", ""1997""]",1,hard
+Technology,"Что означает аббревиатура IoT?",,"[""Internet of Things"", ""Internet of Technology"", ""Internet of Tools"", ""Internet of Transactions""]",0,medium
+Technology,"Кто основал компанию Twitter?",,"[""Джек Дорси"", ""Марк Цукерберг"", ""Илон Маск"", ""Джефф Безос""]",0,hard
+Technology,"В каком году был создан первый компьютерный чип?",,"[""1955"", ""1958"", ""1960"", ""1965""]",1,hard
+Technology,"Что означает аббревиатура USB?",,"[""Universal Serial Bus"", ""Universal System Bus"", ""Unified Serial Bus"", ""Unified System Bus""]",0,medium
+Technology,"Кто создал язык программирования Ruby?",,"[""Юкихиро Мацумото"", ""Гвидо ван Россум"", ""Джеймс Гослинг"", ""Брендан Эйх""]",0,hard
+Technology,"В каком году был создан первый компьютерный вирус для Windows?",,"[""1985"", ""1990"", ""1995"", ""2000""]",1,hard
+Technology,"Что означает аббревиатура SQL?",,"[""Structured Query Language"", ""System Query Language"", ""Structured Question Language"", ""System Question Language""]",0,medium
+Technology,"Кто основал компанию SpaceX?",,"[""Илон Маск"", ""Джефф Безос"", ""Билл Гейтс"", ""Марк Цукерберг""]",0,medium
+Technology,"В каком году был создан первый компьютерный графический интерфейс?",,"[""1970"", ""1973"", ""1981"", ""1985""]",1,hard
+Technology,"Что означает аббревиатура CSS?",,"[""Cascading Style Sheets"", ""Computer Style Sheets"", ""Cascading System Sheets"", ""Computer System Sheets""]",0,medium
+Technology,"Кто создал язык программирования Swift?",,"[""Apple"", ""Google"", ""Microsoft"", ""Facebook""]",0,hard
+Technology,"В каком году был создан первый компьютерный вирус для Mac?",,"[""1985"", ""1990"", ""2000"", ""2006""]",3,hard
+Technology,"Что означает аббревиатура JSON?",,"[""JavaScript Object Notation"", ""Java Object Notation"", ""JavaScript Online Notation"", ""Java Online Notation""]",0,medium
+Technology,"Кто основал компанию Netflix?",,"[""Рид Хастингс"", ""Джефф Безос"", ""Илон Маск"", ""Марк Цукерберг""]",0,hard
+Technology,"В каком году был создан первый компьютерный вирус для Android?",,"[""2005"", ""2010"", ""2012"", ""2015""]",1,hard
+Technology,"Что означает аббревиатура XML?",,"[""eXtensible Markup Language"", ""eXtended Markup Language"", ""eXtensible Modern Language"", ""eXtended Modern Language""]",0,medium
+Technology,"Кто создал язык программирования Go?",,"[""Google"", ""Apple"", ""Microsoft"", ""Facebook""]",0,hard
+Technology,"В каком году был создан первый компьютерный вирус для iOS?",,"[""2007"", ""2010"", ""2014"", ""2016""]",2,hard
+Technology,"Что означает аббревиатура HTTPS?",,"[""HyperText Transfer Protocol Secure"", ""High Tech Transfer Protocol Secure"", ""Hyperlink Text Transfer Protocol Secure"", ""Home Tool Transfer Protocol Secure""]",0,medium
+Technology,"Кто основал компанию Uber?",,"[""Трэвис Каланик"", ""Джефф Безос"", ""Илон Маск"", ""Марк Цукерберг""]",0,hard
+Technology,"В каком году был создан первый компьютерный вирус для Linux?",,"[""1990"", ""1995"", ""2000"", ""2005""]",1,hard
+Technology,"Что означает аббревиатура IDE?",,"[""Integrated Development Environment"", ""Integrated Design Environment"", ""Internet Development Environment"", ""Internet Design Environment""]",0,medium

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Викторина Squid Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 ИГРА ВИКТОРИНА SQUID GAME</h1>
+            <p style="font-size: 1.2rem; margin-top: 20px;">
+                Серверная многопользовательская игра-викторина
+            </p>
+        </div>
+
+        <div style="text-align: center; padding: 40px 20px;">
+            <div style="max-width: 600px; margin: 0 auto;">
+                <a href="./host.html" class="btn btn-primary" style="display: block; margin: 20px 0; padding: 20px; font-size: 1.3rem;">
+                    🎯 Создать Игру (Хост)
+                </a>
+                <a href="./player.html" class="btn" style="display: block; margin: 20px 0; padding: 20px; font-size: 1.3rem;">
+                    📱 Присоединиться (Игрок)
+                </a>
+            </div>
+
+            <div style="margin-top: 40px; padding: 20px; background: rgba(36, 159, 156, 0.1); border-radius: 10px; border: 2px solid var(--teal);">
+                <h2 style="color: var(--teal); margin-bottom: 15px;">Как играть:</h2>
+                <ol style="text-align: left; max-width: 500px; margin: 0 auto; line-height: 1.8;">
+                    <li>Хост создает комнату и получает PIN</li>
+                    <li>Игроки сканируют QR-код или вводят PIN</li>
+                    <li>Хост выбирает категорию и начинает игру</li>
+                    <li>Игроки отвечают на вопросы, используя фигуры</li>
+                    <li>Неправильный ответ = режим наблюдателя</li>
+                    <li>Победитель - игрок с наибольшим счетом!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

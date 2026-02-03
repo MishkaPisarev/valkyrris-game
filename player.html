@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Игрок - Игра Викторина Squid Game</title>
+    <link rel="stylesheet" href="./style.css?v=7">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Join Screen -->
+        <div id="join-section" class="lobby-container">
+            <div class="header">
+                <h1>🎯 ПРИСОЕДИНИТЬСЯ К ИГРЕ</h1>
+            </div>
+
+            <div class="join-form">
+                <input 
+                    type="text" 
+                    id="pin-input" 
+                    placeholder="Введите PIN комнаты"
+                    maxlength="4"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                >
+                <input 
+                    type="text" 
+                    id="nickname-input" 
+                    placeholder="Введите ваш никнейм"
+                    maxlength="20"
+                >
+                <button id="join-btn" class="btn btn-primary">
+                    Присоединиться
+                </button>
+            </div>
+
+            <div id="join-status"></div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-section" style="display: none;">
+            <div class="header">
+                <h1 id="player-name-display"></h1>
+                <div class="health-bar-container">
+                    <div class="health-label">HP: <span id="player-score" class="digital-font">1000</span></div>
+                    <div class="health-bar">
+                        <div id="health-bar-fill" class="health-bar-fill" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div id="question-image-container"></div>
+                <div id="question-text" class="question-text"></div>
+            </div>
+
+            <div class="timer">
+                <div class="timer-label">Таймер</div>
+                <div id="timer-value" class="timer-value digital-font">--:--</div>
+            </div>
+
+            <div class="answers-container">
+                <button class="answer-button shape-circle" data-index="0">
+                    ○
+                </button>
+                <button class="answer-button shape-triangle" data-index="1">
+                    △
+                </button>
+                <button class="answer-button shape-square" data-index="2">
+                    □
+                </button>
+                <button class="answer-button shape-star" data-index="3">
+                    ☆
+                </button>
+            </div>
+
+            <div id="answer-status" class="status-message" style="display: none;"></div>
+        </div>
+
+        <!-- Waiting Screen -->
+        <div id="waiting-section" style="display: none; text-align: center; padding: 40px;">
+            <div class="status-message info">
+                <h2>Ожидание начала игры...</h2>
+                <p>Хост скоро начнет игру</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./game.js?v=7"></script>
+    <script src="./player.js?v=7"></script>
+</body>
+</html>

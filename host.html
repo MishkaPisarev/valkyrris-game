@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хост - Игра Викторина Squid Game</title>
+    <link rel="stylesheet" href="./style.css?v=7">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 ХОСТ ИГРЫ</h1>
+        </div>
+
+        <!-- Lobby Section -->
+        <div id="lobby-section" class="lobby-container">
+            <div class="pin-display">
+                <div class="pin-label">PIN КОМНАТЫ</div>
+                <div class="pin-value" id="room-pin">----</div>
+            </div>
+
+            <div id="qr-container" class="qr-container" style="display: none;">
+                <div id="qr-code"></div>
+                <p style="margin-top: 10px; color: var(--deep-black); font-weight: 700;">
+                    Отсканируйте QR-код, чтобы присоединиться
+                </p>
+            </div>
+
+            <div id="lobby-players-list" class="players-list" style="display: none; margin-top: 20px;">
+                <h3 style="margin-bottom: 15px; color: var(--teal);">Игроки: 0/15 (мин. 2)</h3>
+                <div id="lobby-players-content"></div>
+            </div>
+
+            <button id="start-room-btn" class="btn btn-primary">
+                Создать Комнату
+            </button>
+        </div>
+
+        <!-- Category Selection -->
+        <div id="category-section" style="display: none;">
+            <div class="category-select">
+                <label for="category-select">Выберите Категорию:</label>
+                <select id="category-select">
+                    <option value="">Загрузка категорий...</option>
+                </select>
+            </div>
+            <button id="load-questions-btn" class="btn" style="display: none;">
+                Загрузить Вопросы
+            </button>
+        </div>
+
+        <!-- Game Section -->
+        <div id="game-section" style="display: none;">
+            <div class="question-container">
+                <div id="question-image-container"></div>
+                <div id="question-text" class="question-text"></div>
+            </div>
+
+            <!-- Answers Display for Host -->
+            <div id="host-answers" class="host-answers-container"></div>
+
+            <div class="timer">
+                <div class="timer-label">Таймер</div>
+                <div id="timer-value" class="timer-value digital-font">--:--</div>
+            </div>
+
+            <div class="players-list">
+                <h3 style="margin-bottom: 15px; color: var(--teal);">Игроки</h3>
+                <div id="players-list-content"></div>
+            </div>
+
+            <div style="text-align: center; margin: 20px 0;">
+                <button id="next-question-btn" class="btn btn-primary">
+                    Следующий Вопрос
+                </button>
+                <button id="end-game-btn" class="btn" style="margin-left: 10px;">
+                    Завершить Игру
+                </button>
+            </div>
+        </div>
+
+        <!-- Status Messages -->
+        <div id="status-message"></div>
+    </div>
+
+    <script src="./game.js?v=7"></script>
+    <script src="./host.js?v=7"></script>
+</body>
+</html>
